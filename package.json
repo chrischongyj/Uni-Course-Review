@@ -12,7 +12,7 @@
   "dependencies": {
     "ejs": "^3.0.2",
     "express": "^4.17.1",
+    "mdbootstrap": "^4.16.0",
     "node-fetch": "^2.6.0"
   }
 }
-

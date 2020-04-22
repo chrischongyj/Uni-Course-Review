@@ -96,6 +96,6 @@ app.get('/course/:course', function (req, res) {
 
 
 
-app.listen(process.env.PORT, ()=>console.log('Listening...'));
+app.listen(3000, ()=>console.log('Listening...'));
 
 // process.env.PORT

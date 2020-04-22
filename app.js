@@ -23,6 +23,7 @@ app.get('/contact', function (req, res) {
 app.get('/course/:course', function (req, res) {
   req.params.course = req.params.course.toUpperCase();
   var isValid = false;
+
   fetch('https://api.nusmods.com/v2/2019-2020/moduleList.json')
   .then(response => {
     return response.json()

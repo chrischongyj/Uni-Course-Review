@@ -105,5 +105,14 @@
   padding-top: 10px;
 }
 
+.rate-popover {
+  cursor: pointer;
+}
+
+.ratingstars {
+  position: relative;
+  left: 30%;
+}
+
 
 

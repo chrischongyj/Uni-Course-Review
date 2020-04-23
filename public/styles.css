@@ -7,30 +7,34 @@
 }
 
 .tagline {
-  position: fixed;
-  top: 20%;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
   text-align: center;
-  font-size: medium;
+  font-size: large;
 }
 
 .searchbox {
-  position: fixed;
-  top: 30%;
+  position: relative;
   left: 20%;
 }
 
 .searchbutton {
-  position: fixed;
-  top: 35%;
+  position: relative;
   left: 20%;
+
 }
 
 .topcourses {
-  position: fixed;
+  position: relative;
   top: 45%;
 }
 
 .topcourses h2 {
+  position: relative;
+  padding-top: 30px;
   font-size: medium;
   text-align: center;
   font-weight: bold;
@@ -44,75 +48,26 @@
   font-weight: bold;
 }
 
-.schoolname {
-  position: relative;
-  text-align: center;
-  font-size: small;
-}
-
-.rate {
-  position: relative;
-  left: -27%;
-  height: 46px;
-  padding: 0 10px;
-}
-.rate:not(:checked) > input {
-  position:absolute;
-  top:-9999px;
-}
-.rate:not(:checked) > label {
-  float:right;
-  width:1em;
-  overflow:hidden;
-  white-space:nowrap;
-  cursor:pointer;
-  font-size:30px;
-  color:#ccc;
-}
-.rate:not(:checked) > label:before {
-  content: '★ ';
-}
-.rate > input:checked ~ label {
-  color: #ffc700;    
-}
-.rate:not(:checked) > label:hover,
-.rate:not(:checked) > label:hover ~ label {
-  color: #deb217;  
-}
-.rate > input:checked + label:hover,
-.rate > input:checked + label:hover ~ label,
-.rate > input:checked ~ label:hover,
-.rate > input:checked ~ label:hover ~ label,
-.rate > label:hover ~ input:checked ~ label {
-  color: #c59b08;
-}
-
-/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
-
-.googlebutton {
-  position: relative;
-  left: 15%;
-  padding-top: 10px;
-}
 
 .courseid {
   text-transform: uppercase;
 }
 
 .coursewelcome {
-  font-size: medium;
+  font-size: large;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 30px;
+  font-weight: bold;
 }
 
-.rate-popover {
-  cursor: pointer;
-}
-
-.ratingstars {
+.fb-commentbox {
   position: relative;
-  left: 30%;
+  padding-top: 50px;
 }
+
+
+
+
 
 
 

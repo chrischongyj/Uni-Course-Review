@@ -40,15 +40,6 @@
   font-weight: bold;
 }
 
-.coursename {
-  position: relative;
-  padding-top: 10px;
-  text-align: center;
-  font-size: medium;
-  font-weight: bold;
-}
-
-
 .courseid {
   text-transform: uppercase;
 }
@@ -57,12 +48,20 @@
   font-size: large;
   text-align: center;
   padding-top: 30px;
+  padding-left: 10px;
   font-weight: bold;
+}
+
+.coursename {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .fb-commentbox {
   position: relative;
   padding-top: 50px;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 

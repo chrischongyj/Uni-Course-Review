@@ -1,15 +1,28 @@
+
+
 var express = require('express');
+
 var app = express();
+
+
+
+
+
 const fetch = require("node-fetch");
 
 app.set('view engine', 'ejs');
 
 app.use(express.static(__dirname + '/public'));
+// Initialize passport
+
+
 
 // Home page route.
 app.get('/', function (req, res) {
   res.sendFile('index.html');
 });
+
+
 
 app.get('/404', function (req, res) {
   res.sendFile(__dirname + '/public/404.html');
@@ -96,6 +109,7 @@ app.get('/course/:course', function (req, res) {
 
 
 
-app.listen(process.env.PORT, ()=>console.log('Listening...'));
+
+app.listen(3000, ()=>console.log('Listening...'));
 
 // process.env.PORT

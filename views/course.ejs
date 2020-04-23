@@ -4,6 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="fb:app_id" content="{260206425381256}" />
+
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -114,8 +116,10 @@
       });
 
     </script>
-
-    <div class="fb-comments" data-href=location.href data-numposts="5" data-width=""></div>
+    <script>
+      document.write("<div class='fb-comments' data-href='" + window.location.href + "' data-numposts='5' data-order-by='reverse_time'></div>");
+    </script>
+    <!-- <div class="fb-comments" data-href=location.href data-numposts="5" data-width="100%" data-order-by="reverse_time"></div> -->
 
 
 

@@ -19,7 +19,7 @@
     "isomorphic-fetch": "^2.2.1",
     "mdbootstrap": "^4.16.0",
     "moment": "^2.24.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "passport": "^0.4.1",
     "passport-azure-ad": "^4.2.1",
     "simple-oauth2": "^3.4.0"
